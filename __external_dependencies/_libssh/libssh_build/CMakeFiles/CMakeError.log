@@ -1,0 +1,349 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1145193024/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1145193024.dir/build.make CMakeFiles/cmTryCompileExec1145193024.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1145193024.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec1145193024.dir/CheckSymbolExists.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: error: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&pthread_create))[argc];
+           ^
+make[1]: *** [CMakeFiles/cmTryCompileExec1145193024.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1145193024/fast] Error 2
+
+File /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec701580773/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec701580773.dir/build.make CMakeFiles/cmTryCompileExec701580773.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec701580773.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec701580773.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec701580773
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec701580773.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec701580773.dir/CheckFunctionExists.c.o  -o cmTryCompileExec701580773 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec701580773] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec701580773/fast] Error 2
+
+
+Determining if the include file util.h exists failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3383831650/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3383831650.dir/build.make CMakeFiles/cmTryCompileExec3383831650.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3383831650.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec3383831650.dir/CheckIncludeFile.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:18: fatal error: util.h: No such file or directory
+ #include <util.h>
+                  ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec3383831650.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3383831650/fast] Error 2
+
+
+Determining if the include file libutil.h exists failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec300310088/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec300310088.dir/build.make CMakeFiles/cmTryCompileExec300310088.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec300310088.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec300310088.dir/CheckIncludeFile.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:21: fatal error: libutil.h: No such file or directory
+ #include <libutil.h>
+                     ^
+compilation terminated.
+make[1]: *** [CMakeFiles/cmTryCompileExec300310088.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec300310088/fast] Error 2
+
+
+Determining if the vsnprintf exist failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4256762831/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4256762831.dir/build.make CMakeFiles/cmTryCompileExec4256762831.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4256762831.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec4256762831.dir/CheckSymbolExists.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: error: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&vsnprintf))[argc];
+           ^
+make[1]: *** [CMakeFiles/cmTryCompileExec4256762831.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4256762831/fast] Error 2
+
+File /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the snprintf exist failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec217823866/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec217823866.dir/build.make CMakeFiles/cmTryCompileExec217823866.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec217823866.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec217823866.dir/CheckSymbolExists.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: error: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+   return ((int*)(&snprintf))[argc];
+           ^
+make[1]: *** [CMakeFiles/cmTryCompileExec217823866.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec217823866/fast] Error 2
+
+File /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the ntohll exist failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3783269860/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3783269860.dir/build.make CMakeFiles/cmTryCompileExec3783269860.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3783269860.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec3783269860.dir/CheckSymbolExists.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘ntohll’ undeclared (first use in this function)
+   return ((int*)(&ntohll))[argc];
+                   ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3783269860.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3783269860/fast] Error 2
+
+File /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <arpa/inet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ntohll
+  return ((int*)(&ntohll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the htonll exist failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2283141340/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2283141340.dir/build.make CMakeFiles/cmTryCompileExec2283141340.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2283141340.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec2283141340.dir/CheckSymbolExists.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘htonll’ undeclared (first use in this function)
+   return ((int*)(&htonll))[argc];
+                   ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+ int main(int argc, char** argv)
+              ^
+make[1]: *** [CMakeFiles/cmTryCompileExec2283141340.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2283141340/fast] Error 2
+
+File /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <arpa/inet.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef htonll
+  return ((int*)(&htonll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function __strtoull exists failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec748015570/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec748015570.dir/build.make CMakeFiles/cmTryCompileExec748015570.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec748015570.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=__strtoull   -o CMakeFiles/cmTryCompileExec748015570.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec748015570
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec748015570.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=__strtoull    CMakeFiles/cmTryCompileExec748015570.dir/CheckFunctionExists.c.o  -o cmTryCompileExec748015570 -rdynamic -lrt 
+CMakeFiles/cmTryCompileExec748015570.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x13): undefined reference to `__strtoull'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec748015570] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec748015570/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_MSC_THREAD_LOCAL_STORAGE failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3611596942/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3611596942.dir/build.make CMakeFiles/cmTryCompileExec3611596942.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3611596942.dir/src.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DHAVE_MSC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTryCompileExec3611596942.dir/src.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:2:1: error: return type defaults to ‘int’
+ __declspec(thread) int tls;
+ ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:2:1: warning: no previous prototype for ‘__declspec’ [-Wmissing-prototypes]
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c: In function ‘__declspec’:
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:4:16: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+ int main(void) {
+                ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:2:1: error: type of ‘thread’ defaults to ‘int’
+ __declspec(thread) int tls;
+ ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:2:24: error: declaration for parameter ‘tls’ but no such parameter
+ __declspec(thread) int tls;
+                        ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:6:1: error: expected ‘{’ at end of input
+ }
+ ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:2:1: warning: unused parameter ‘thread’ [-Wunused-parameter]
+ __declspec(thread) int tls;
+ ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:2:24: warning: unused parameter ‘tls’ [-Wunused-parameter]
+ __declspec(thread) int tls;
+                        ^
+/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/src.c:6:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make[1]: *** [CMakeFiles/cmTryCompileExec3611596942.dir/src.c.o] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3611596942/fast] Error 2
+
+Source file was:
+
+__declspec(thread) int tls;
+
+int main(void) {
+    return 0;
+}
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec752429176/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec752429176.dir/build.make CMakeFiles/cmTryCompileExec752429176.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec752429176.dir/TestEndianess.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64    -o CMakeFiles/cmTryCompileExec752429176.dir/TestEndianess.c.o   -c /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec752429176
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec752429176.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64     CMakeFiles/cmTryCompileExec752429176.dir/TestEndianess.c.o  -o cmTryCompileExec752429176 -rdynamic 
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function EVP_aes_128_ctr exists failed with the following output:
+Change Dir: /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2904715730/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2904715730.dir/build.make CMakeFiles/cmTryCompileExec2904715730.dir/build
+make[1]: Entering directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2904715730.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=EVP_aes_128_ctr -I/usr/local/ssl/include    -o CMakeFiles/cmTryCompileExec2904715730.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2904715730
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2904715730.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DCHECK_FUNCTION_EXISTS=EVP_aes_128_ctr    CMakeFiles/cmTryCompileExec2904715730.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2904715730 -rdynamic /usr/local/ssl/lib/libcrypto.a 
+CMakeFiles/cmTryCompileExec2904715730.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x13): undefined reference to `EVP_aes_128_ctr'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec2904715730] Error 1
+make[1]: Leaving directory `/home/mkn/_libssh/libssh_build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2904715730/fast] Error 2
+
+

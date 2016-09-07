@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mkn/_libssh/libssh/include/libssh/callbacks.h
+libssh/libssh.h
+-
+string.h
+-
+
+/home/mkn/_libssh/libssh/include/libssh/legacy.h
+
+/home/mkn/_libssh/libssh/include/libssh/libssh.h
+unistd.h
+-
+inttypes.h
+-
+sys/types.h
+-
+winsock2.h
+-
+sys/select.h
+-
+netdb.h
+-
+libssh/legacy.h
+/home/mkn/_libssh/libssh/include/libssh/libssh/legacy.h
+
+/home/mkn/_libssh/libssh/src/threads/pthread.c
+config.h
+/home/mkn/_libssh/libssh/src/threads/config.h
+libssh/callbacks.h
+-
+errno.h
+-
+stdlib.h
+-
+pthread.h
+-
+
+config.h
+

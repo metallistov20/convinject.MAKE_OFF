@@ -1,0 +1,2 @@
+/home/mkn/_libssh/libssh_build/src/CMakeFiles/ssh_shared.dir
+/home/mkn/_libssh/libssh_build/src/threads/CMakeFiles/ssh_threads_shared.dir

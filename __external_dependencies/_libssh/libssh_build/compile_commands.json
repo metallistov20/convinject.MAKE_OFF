@@ -1,0 +1,252 @@
+[
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/agent.c.o   -c /home/mkn/_libssh/libssh/src/agent.c",
+  "file": "/home/mkn/_libssh/libssh/src/agent.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/auth.c.o   -c /home/mkn/_libssh/libssh/src/auth.c",
+  "file": "/home/mkn/_libssh/libssh/src/auth.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/base64.c.o   -c /home/mkn/_libssh/libssh/src/base64.c",
+  "file": "/home/mkn/_libssh/libssh/src/base64.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/bignum.c.o   -c /home/mkn/_libssh/libssh/src/bignum.c",
+  "file": "/home/mkn/_libssh/libssh/src/bignum.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/buffer.c.o   -c /home/mkn/_libssh/libssh/src/buffer.c",
+  "file": "/home/mkn/_libssh/libssh/src/buffer.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/callbacks.c.o   -c /home/mkn/_libssh/libssh/src/callbacks.c",
+  "file": "/home/mkn/_libssh/libssh/src/callbacks.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/channels.c.o   -c /home/mkn/_libssh/libssh/src/channels.c",
+  "file": "/home/mkn/_libssh/libssh/src/channels.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/client.c.o   -c /home/mkn/_libssh/libssh/src/client.c",
+  "file": "/home/mkn/_libssh/libssh/src/client.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/config.c.o   -c /home/mkn/_libssh/libssh/src/config.c",
+  "file": "/home/mkn/_libssh/libssh/src/config.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/connect.c.o   -c /home/mkn/_libssh/libssh/src/connect.c",
+  "file": "/home/mkn/_libssh/libssh/src/connect.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/connector.c.o   -c /home/mkn/_libssh/libssh/src/connector.c",
+  "file": "/home/mkn/_libssh/libssh/src/connector.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/curve25519.c.o   -c /home/mkn/_libssh/libssh/src/curve25519.c",
+  "file": "/home/mkn/_libssh/libssh/src/curve25519.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/dh.c.o   -c /home/mkn/_libssh/libssh/src/dh.c",
+  "file": "/home/mkn/_libssh/libssh/src/dh.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/ecdh.c.o   -c /home/mkn/_libssh/libssh/src/ecdh.c",
+  "file": "/home/mkn/_libssh/libssh/src/ecdh.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/error.c.o   -c /home/mkn/_libssh/libssh/src/error.c",
+  "file": "/home/mkn/_libssh/libssh/src/error.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/getpass.c.o   -c /home/mkn/_libssh/libssh/src/getpass.c",
+  "file": "/home/mkn/_libssh/libssh/src/getpass.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/init.c.o   -c /home/mkn/_libssh/libssh/src/init.c",
+  "file": "/home/mkn/_libssh/libssh/src/init.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/kex.c.o   -c /home/mkn/_libssh/libssh/src/kex.c",
+  "file": "/home/mkn/_libssh/libssh/src/kex.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/known_hosts.c.o   -c /home/mkn/_libssh/libssh/src/known_hosts.c",
+  "file": "/home/mkn/_libssh/libssh/src/known_hosts.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/legacy.c.o   -c /home/mkn/_libssh/libssh/src/legacy.c",
+  "file": "/home/mkn/_libssh/libssh/src/legacy.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/libcrypto.c.o   -c /home/mkn/_libssh/libssh/src/libcrypto.c",
+  "file": "/home/mkn/_libssh/libssh/src/libcrypto.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/log.c.o   -c /home/mkn/_libssh/libssh/src/log.c",
+  "file": "/home/mkn/_libssh/libssh/src/log.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/match.c.o   -c /home/mkn/_libssh/libssh/src/match.c",
+  "file": "/home/mkn/_libssh/libssh/src/match.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/messages.c.o   -c /home/mkn/_libssh/libssh/src/messages.c",
+  "file": "/home/mkn/_libssh/libssh/src/messages.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/misc.c.o   -c /home/mkn/_libssh/libssh/src/misc.c",
+  "file": "/home/mkn/_libssh/libssh/src/misc.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/options.c.o   -c /home/mkn/_libssh/libssh/src/options.c",
+  "file": "/home/mkn/_libssh/libssh/src/options.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet.c.o   -c /home/mkn/_libssh/libssh/src/packet.c",
+  "file": "/home/mkn/_libssh/libssh/src/packet.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet_cb.c.o   -c /home/mkn/_libssh/libssh/src/packet_cb.c",
+  "file": "/home/mkn/_libssh/libssh/src/packet_cb.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/packet_crypt.c.o   -c /home/mkn/_libssh/libssh/src/packet_crypt.c",
+  "file": "/home/mkn/_libssh/libssh/src/packet_crypt.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pcap.c.o   -c /home/mkn/_libssh/libssh/src/pcap.c",
+  "file": "/home/mkn/_libssh/libssh/src/pcap.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki.c.o   -c /home/mkn/_libssh/libssh/src/pki.c",
+  "file": "/home/mkn/_libssh/libssh/src/pki.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_container_openssh.c.o   -c /home/mkn/_libssh/libssh/src/pki_container_openssh.c",
+  "file": "/home/mkn/_libssh/libssh/src/pki_container_openssh.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_ed25519.c.o   -c /home/mkn/_libssh/libssh/src/pki_ed25519.c",
+  "file": "/home/mkn/_libssh/libssh/src/pki_ed25519.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/poll.c.o   -c /home/mkn/_libssh/libssh/src/poll.c",
+  "file": "/home/mkn/_libssh/libssh/src/poll.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/session.c.o   -c /home/mkn/_libssh/libssh/src/session.c",
+  "file": "/home/mkn/_libssh/libssh/src/session.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/scp.c.o   -c /home/mkn/_libssh/libssh/src/scp.c",
+  "file": "/home/mkn/_libssh/libssh/src/scp.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/socket.c.o   -c /home/mkn/_libssh/libssh/src/socket.c",
+  "file": "/home/mkn/_libssh/libssh/src/socket.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/string.c.o   -c /home/mkn/_libssh/libssh/src/string.c",
+  "file": "/home/mkn/_libssh/libssh/src/string.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/threads.c.o   -c /home/mkn/_libssh/libssh/src/threads.c",
+  "file": "/home/mkn/_libssh/libssh/src/threads.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/wrapper.c.o   -c /home/mkn/_libssh/libssh/src/wrapper.c",
+  "file": "/home/mkn/_libssh/libssh/src/wrapper.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/bcrypt_pbkdf.c.o   -c /home/mkn/_libssh/libssh/src/external/bcrypt_pbkdf.c",
+  "file": "/home/mkn/_libssh/libssh/src/external/bcrypt_pbkdf.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/blowfish.c.o   -c /home/mkn/_libssh/libssh/src/external/blowfish.c",
+  "file": "/home/mkn/_libssh/libssh/src/external/blowfish.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/ed25519.c.o   -c /home/mkn/_libssh/libssh/src/external/ed25519.c",
+  "file": "/home/mkn/_libssh/libssh/src/external/ed25519.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/fe25519.c.o   -c /home/mkn/_libssh/libssh/src/external/fe25519.c",
+  "file": "/home/mkn/_libssh/libssh/src/external/fe25519.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/ge25519.c.o   -c /home/mkn/_libssh/libssh/src/external/ge25519.c",
+  "file": "/home/mkn/_libssh/libssh/src/external/ge25519.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/sc25519.c.o   -c /home/mkn/_libssh/libssh/src/external/sc25519.c",
+  "file": "/home/mkn/_libssh/libssh/src/external/sc25519.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/pki_crypto.c.o   -c /home/mkn/_libssh/libssh/src/pki_crypto.c",
+  "file": "/home/mkn/_libssh/libssh/src/pki_crypto.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/gzip.c.o   -c /home/mkn/_libssh/libssh/src/gzip.c",
+  "file": "/home/mkn/_libssh/libssh/src/gzip.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src -I/home/mkn/_libssh/libssh/src -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_shared.dir/external/curve25519_ref.c.o   -c /home/mkn/_libssh/libssh/src/external/curve25519_ref.c",
+  "file": "/home/mkn/_libssh/libssh/src/external/curve25519_ref.c"
+},
+{
+  "directory": "/home/mkn/_libssh/libssh_build/src/threads",
+  "command": "/usr/bin/cc  -DLIBSSH_EXPORTS  -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -fPIC -fstack-protector -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -g -fPIC -I/home/mkn/_libssh/libssh_build/src/threads -I/home/mkn/_libssh/libssh/src/threads -I/home/mkn/_libssh/libssh/include -I/home/mkn/_libssh/libssh_build -I/home/mkn/_libssh/libssh -I/usr/local/ssl/include    -fvisibility=hidden -o CMakeFiles/ssh_threads_shared.dir/pthread.c.o   -c /home/mkn/_libssh/libssh/src/threads/pthread.c",
+  "file": "/home/mkn/_libssh/libssh/src/threads/pthread.c"
+}
+]
